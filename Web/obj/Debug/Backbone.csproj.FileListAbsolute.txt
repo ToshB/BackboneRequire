@@ -1,0 +1,5 @@
+c:\users\tosh\Projects\Backbone\Backbone\bin\Backbone.dll
+c:\users\tosh\Projects\Backbone\Backbone\bin\Backbone.pdb
+c:\users\tosh\Projects\Backbone\Backbone\obj\Debug\ResolveAssemblyReference.cache
+c:\users\tosh\Projects\Backbone\Backbone\obj\Debug\Backbone.dll
+c:\users\tosh\Projects\Backbone\Backbone\obj\Debug\Backbone.pdb
