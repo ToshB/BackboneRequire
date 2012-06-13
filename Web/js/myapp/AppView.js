@@ -1,4 +1,6 @@
-﻿define(['ItemView'], function (ItemView) {
+﻿define([
+        'ItemView'
+    ], function (ItemView) {
     var AppView = Backbone.View.extend({
         initialize: function () {
             this.model.on('change', this.render, this);

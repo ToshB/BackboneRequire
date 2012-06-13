@@ -1,4 +1,4 @@
-﻿define(function () {
+﻿define('ItemView', function () {
     var ItemView = Backbone.View.extend({
         tagName: 'p',
         className: 'square',

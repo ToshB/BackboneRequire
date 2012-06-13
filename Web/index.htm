@@ -1,6 +1,6 @@
 ﻿<html>
 <body>
-    <div id="app"></div>
+    <div class="hidden" id="app"></div>
     <style>
         p.square 
         {
@@ -33,11 +33,17 @@
     <script src="scripts/jquery.min.js"></script>
     <script src="scripts/underscore-min.js"></script>
     <script src="scripts/backbone-min.js"></script>
-    <script src="scripts/myapp.js"></script>
+    <script data-main="js/myapp/main" src="js/lib/require/require.js"></script>
+
+<!--    <script src="scripts/myapp.js"></script>-->
     <script>
-        var appView = new AppView();
-        appView.render();
-        $('#app').html(appView.el);
+//        var data = $.load('url', function (data) {
+//            model = new AppModel(data);
+//        })
+//        var myModel = new AppModel(window.dataRetrievedFromServer);
+//        window.model = myModel;
+//        var appView = new AppView({ model: myModel });
+//        $('#app').html(appView.render().el);
     </script>
 </body>
 </html>
